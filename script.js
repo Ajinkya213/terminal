@@ -36,22 +36,20 @@ $(document).ready(function() {
 function echo(model){
     let s = model.substring(4,model.length)
     $("#term-add").append("<div>$ "+s+"</div>")
-    clearInput()
 }
 
 function whoami(){
     $("#term-add").append("<div>$ Ajinkya Bhushan</div>")
-    clearInput()
 }
 
 function getResume(){
     $("#term-add").append("<div>$ Opened Resume on a new tab...</div>")
-    window.open("/assets/Resume.pdf")
+    window.open("/terminal/assets/Resume.pdf")
 }
 
 function printResume(){
     $("#term-add").append("<div>$ Opened Resume on a new tab with print prompt...</div>")
-    var w = window.open("/assets/Resume.pdf")
+    var w = window.open("/terminal/assets/Resume.pdf")
     w.print()
 }
 
@@ -85,5 +83,5 @@ function help(){
 }
 
 function docs(){
-    window.open("/doc.html","_self");
+    window.open("/terminal/doc.html","_self");
 }
