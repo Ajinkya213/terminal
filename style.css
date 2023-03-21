@@ -1,0 +1,36 @@
+
+@font-face {
+    font-family: 'White Rabbit';
+    src: url('/assets/fonts/WhiteRabbit.eot');
+    src: url('/assets/fonts/WhiteRabbit.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/WhiteRabbit.woff2') format('woff2'),
+        url('/assets/fonts/WhiteRabbit.woff') format('woff'),
+        url('/assets/fonts/WhiteRabbit.ttf') format('truetype'),
+        url('/assets/fonts/WhiteRabbit.svg#WhiteRabbit') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  .c-term-screen{
+    height: 400px;
+    background-color: #282828;
+    color: #66FF66;
+    overflow-y: scroll;
+    border-top-right-radius: 1%;
+    border-top-left-radius: 1%;
+    font-family: 'White Rabbit';
+}
+
+.c-term-input{
+    background-color: #282828;
+    color: #66FF66;
+    border-style: none;
+    outline: none;
+    padding: 0;
+    font-family: 'White Rabbit';
+}
+
+.c-term-input-container{
+    border-color: black;
+}
