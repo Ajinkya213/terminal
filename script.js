@@ -78,8 +78,7 @@ function clear(){
 }
 
 function help(){
-    $("#term-add").append("$ <div class= \"text-center\">Help section</div>"+
-    "Please use the documenation guide either by pressing \"Documentation\" tab on the navbar or typing 'docs' on the console.")
+    $("#term-add").append("<div class= \"text-center\">Help section <br> Please use the documenation guide either by pressing \"Documentation\" tab on the navbar or typing 'docs' on the console. </div>")
 }
 
 function docs(){
